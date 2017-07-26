@@ -1,3 +1,5 @@
+package src;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -14,7 +16,7 @@ public class Mars {
 
     private static void checkMaxValues(int roverposX, int roverposY){
         if(roverposX > marsMaxX || roverposY > marsMaxY){
-            throw new InputMismatchException("Rover coordinates must be in range of Nasa's research field in Mars!");
+            throw new InputMismatchException("src.Rover coordinates must be in range of Nasa's research field in src.Mars!");
         }
     }
 
